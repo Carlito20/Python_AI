@@ -52,3 +52,4 @@ try:
 except Exception as e:
     print("Error parsing response", e, "Raw Response - ", raw_response)
     print("Please try again")
+    print(raw_response)
