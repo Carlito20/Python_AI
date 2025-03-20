@@ -51,3 +51,4 @@ try:
     print(structured_response)
 except Exception as e:
     print("Error parsing response", e, "Raw Response - ", raw_response)
+    print("Please try again")
